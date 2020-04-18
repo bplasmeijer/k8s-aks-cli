@@ -21,4 +21,6 @@
 This container provides the Azure CLI, Kubectl, Helm, and K9s client for use with Kubernetes
 
 ## Run
+```
 docker run -it bplasmeijer/k8s-aks-cli:latest
+```
