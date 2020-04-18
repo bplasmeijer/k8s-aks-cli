@@ -32,4 +32,6 @@ jobs:
     
          # Runs a single command using the runners shell
     - name: Publish k8s-aks-cli container
-      run: make docker_push
+      run: |
+        docker login -username ${{docker_username}} -password ${{docker_password}}
+        make docker_push
