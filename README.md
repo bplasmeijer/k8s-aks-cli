@@ -1,4 +1,9 @@
-# k8s-aks-cli client
+# k8s-aks-cli client container
+
+- [azure cli](https://github.com/Azure/azure-cli)
+- [kubectl](https://github.com/kubernetes/kubectl)
+- [helm](https://github.com/helm/helm)
+- [k9s](https://github.com/derailed/k9s)
 
 ### CI Build Status
 ![CI](https://github.com/bplasmeijer/k8s-aks-cli/workflows/CI/badge.svg)
