@@ -23,5 +23,13 @@ jobs:
     - uses: actions/checkout@v2
 
     # Runs a single command using the runners shell
-    - name: Run a build
+    - name: Build k8s-aks-cli container
       run: make docker_build
+    
+     # Runs a single command using the runners shell
+    - name: Test k8s-aks-cli container
+      run: make docker_build
+    
+         # Runs a single command using the runners shell
+    - name: Publish k8s-aks-cli container
+      run: echo 'publish'
