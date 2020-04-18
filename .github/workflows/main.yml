@@ -24,4 +24,4 @@ jobs:
 
     # Runs a single command using the runners shell
     - name: Run a build
-      run: make docker_push
+      run: make docker_build
