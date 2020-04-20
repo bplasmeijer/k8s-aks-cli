@@ -18,7 +18,7 @@ This container provides the Azure CLI, Kubectl, Helm, and K9s client for use wit
 [![](https://images.microbadger.com/badges/license/bplasmeijer/k8s-aks-cli.svg)](https://microbadger.com/images/bplasmeijer/k8s-aks-cli "Get your own license badge on microbadger.com")
 
 # Supported tags and respective `Dockerfile` links
-* `v1.16.7`,  `latest` [(latest/Dockerfile)](https://github.com/bplasmeijer/k8s-aks-cli/blob/master/dockerfile)
+* `v1.16.7`,  `latest` [(latest/Dockerfile)](https://github.com/bplasmeijer/k8s-aks-cli/blob/v1.16.7/dockerfile)
 
 ## Run
 ```
