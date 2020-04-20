@@ -2,7 +2,7 @@
 
 ## Overview
 
-This container provides the Azure CLI, Kubectl, Helm, and K9s client for use with Kubernetes
+This container provides the Azure CLI, Kubectl, Helm, and K9s client for use with Kubernetes.
 - [azure cli](https://github.com/Azure/azure-cli)
 - [kubectl](https://github.com/kubernetes/kubectl)
 - [helm](https://github.com/helm/helm)
@@ -18,7 +18,7 @@ This container provides the Azure CLI, Kubectl, Helm, and K9s client for use wit
 [![](https://images.microbadger.com/badges/license/bplasmeijer/k8s-aks-cli.svg)](https://microbadger.com/images/bplasmeijer/k8s-aks-cli "Get your own license badge on microbadger.com")
 
 # Supported tags and respective `Dockerfile` links
-* `latest`,  `latest` [(latest/Dockerfile)](https://github.com/bplasmeijer/k8s-aks-cli/blob/master/dockerfile)
+* `v1.16.7`,  `latest` [(latest/Dockerfile)](https://github.com/bplasmeijer/k8s-aks-cli/blob/master/dockerfile)
 
 ## Run
 ```

@@ -15,7 +15,7 @@ RUN apk add --update ca-certificates \
 
 FROM alpine as kubectl
 
-ENV KUBE_LATEST_VERSION="v1.18.1"
+ENV KUBE_LATEST_VERSION="v1.16.7"
 
 RUN apk add --update ca-certificates \
  && apk add --update -t deps curl \
