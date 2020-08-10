@@ -32,7 +32,7 @@ RUN apk add --update ca-certificates \
  && apk add --update -t deps curl \
  && curl -L https://github.com/derailed/k9s/releases/download/${K9S_LATEST_VERSION}/k9s_Linux_x86_64.tar.gz -o /tmp/k9s.gz \
  && cd /tmp \
- && tar xf k9s.gz \
+ && tar xf k9s.gz \ 
  && mv /tmp/k9s /usr/local/bin/k9s
 
 FROM mcr.microsoft.com/azure-cli
@@ -47,9 +47,9 @@ LABEL org.label-schema.vcs-ref=$VCS_REF \
       org.label-schema.vcs-url="https://github.com/bplasmeijer/k8s-aks-cli" \
       org.label-schema.build-date=$BUILD_DATE \
       org.label-schema.docker.dockerfile="/Dockerfile"
-
+      
 COPY --from=helm /usr/local/bin/helm /usr/local/bin/helm
 COPY --from=kubectl /usr/local/bin/kubectl /usr/local/bin/kubectl
 COPY --from=k9s /usr/local/bin/k9s /usr/local/bin/k9s
 
-
+    
