@@ -2,7 +2,7 @@
 # upgrades.
 FROM alpine as helm
 
-ENV HELM_LATEST_VERSION="v3.1.2"
+ENV HELM_LATEST_VERSION="v3.2.0"
 
 RUN apk add --update ca-certificates \
  && apk add --update -t deps wget git openssl bash \
